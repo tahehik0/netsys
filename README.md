@@ -1,41 +1,14 @@
-GRE ТУННЕЛЬ И RAID5
+GRE ТУННЕЛЬ
+
+TUNLOCAL = IP-АДРЕС УСТРОЙСТВА С КОТОРОГО ИДЕТ IPTUNNEL
+TUNREMOTE = IP-АДРЕС УСТРОЙСТВО К КОТОРОМУ ИДЕТ IPTUNNEL
+
+TUNLOCAL И TUNREMOTE IP-АДРЕСА КОТОРЫЕ ИДУТ С HQ-R И BR-R В ISP
 
 ![image](https://github.com/tahehik0/netsys/assets/170648571/33a37728-50f1-4489-8759-f6bfbd5707f5)
+![image](https://github.com/tahehik0/netsys/assets/170648571/09678171-0864-45cd-a8c3-44633d544719)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+HOST = ИНТЕРФЕЙС КОТОРЫЙ ИДЕТ В СТОРОНУ ISP
 
 
 

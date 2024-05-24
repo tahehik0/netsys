@@ -1,4 +1,4 @@
-<a name="GRE ТУННЕЛЬ"></a> 
+GRE ТУННЕЛЬ
 
 TUNLOCAL = IP-АДРЕС УСТРОЙСТВА С КОТОРОГО ИДЕТ IPTUNNEL
 TUNREMOTE = IP-АДРЕС УСТРОЙСТВО К КОТОРОМУ ИДЕТ IPTUNNEL

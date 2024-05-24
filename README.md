@@ -1,16 +1,48 @@
 GRE ТУННЕЛЬ
 
 TUNLOCAL = IP-АДРЕС УСТРОЙСТВА С КОТОРОГО ИДЕТ IPTUNNEL
+
 TUNREMOTE = IP-АДРЕС УСТРОЙСТВО К КОТОРОМУ ИДЕТ IPTUNNEL
+
+HOST = ИНТЕРФЕЙС КОТОРЫЙ ИДЕТ В СТОРОНУ ISP
 
 TUNLOCAL И TUNREMOTE IP-АДРЕСА КОТОРЫЕ ИДУТ С HQ-R И BR-R В ISP
 
 ![image](https://github.com/tahehik0/netsys/assets/170648571/33a37728-50f1-4489-8759-f6bfbd5707f5)
 ![image](https://github.com/tahehik0/netsys/assets/170648571/09678171-0864-45cd-a8c3-44633d544719)
 
-HOST = ИНТЕРФЕЙС КОТОРЫЙ ИДЕТ В СТОРОНУ ISP
 
 
+RAID5 МАССИВ
+
+ДОБАВЛЯЕМ НА BR-SRV 5 ДИСКОВ ОБЪЕМОМ 1 ГБ
+![image](https://github.com/tahehik0/netsys/assets/170648571/37921533-8f8f-44d8-8b5d-f84eb645371e)
+
+ДАЛЕЕ УСТАНАВЛИВАЕМ MDADM
+
+apt-get install mdadm
+
+ПРОВЕРЕРЯЕМ НАЗВАНИЯ ДИСКОВ И РАЗДЕЛОВ
+
+lsblk
+
+ГОТОВИМ НОСИТЕЛИ
+
+mdadm --zero--superblock --force /dev/sd{b,c,d,e,f} (b,c,d,e,f - названия дисков из lsblk)
+
+УДАЛЯЕМ СТАРЫЕ ДАННЫЕ
+
+wipefs --all --force /dev/sd{b,c,d,e,f}
+
+СОЗДАЕМ RAID МАССИВ
+
+mdadm --create --verbose /dev/md0 -1 5 -n 5 /dev/sd{b,c,d,e,f}
+
+ПРОВЕРЯЕМ ЧТО МАССИВ СОЗДАЛСЯ 
+
+lsblk
+
+![image](https://github.com/tahehik0/netsys/assets/170648571/7e5596fb-b359-4dce-8a5e-9d1211cec741)
 
 4 МОДУЛЬ
 

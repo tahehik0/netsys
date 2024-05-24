@@ -1,5 +1,6 @@
 GRE ТУННЕЛЬ И RAID5
 
+![image](https://github.com/tahehik0/netsys/assets/170648571/33a37728-50f1-4489-8759-f6bfbd5707f5)
 
 
 

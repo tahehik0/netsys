@@ -56,9 +56,9 @@ chmod ugo+rwx /etc/bind/zone/0.16.172.in-addr.arpa
 
 chmod ugo+rwx /etc/bind/zone/0.168.192.in-addr.arpa
 
-chmod ugo+rwx /etc/bind/zone/hq.work (**файл может находится в /etc/bind/zone/master**)
+chmod ugo+rwx /etc/bind/zone/hq.work (**файл может находится в /etc/bind/zone/master/**)
 
-chmod ugo+rwx /etc/bind/zone/branch.work (**файл может находится в /etc/bind/zone/master**)
+chmod ugo+rwx /etc/bind/zone/branch.work (**файл может находится в /etc/bind/zone/master/**)
 
 Меняем файл запуска
 

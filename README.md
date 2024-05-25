@@ -64,6 +64,39 @@ dig hq-srv.hq.work
 
 ![image](https://github.com/tahehik0/netsys/assets/170648571/0e271e3b-1fb8-4d11-bcff-7fc7cf5bc42e)
 
+# NTP
+
+Меняем временную зону
+
+timedatectl set-timezone Europe/Moscow
+
+Устанавливаем пакет
+
+apt-get install -y chrony
+
+sytemctl enable --now chronyd
+
+Настраиваем файл chrony
+
+mcedit /etc/chrony.conf
+
+![image](https://github.com/tahehik0/netsys/assets/170648571/d4ace5a9-fd34-4cc7-b975-7f8b58382533)
+
+reboot
+
+На всех устройствах устанавливаем chrony и делаем сл. действия
+
+mcedit /etc/chrony.conf
+
+server 192.168.0.1 iburst prefer
+
+Проверяем клиентов 
+
+chronyc clients
+
+![image](https://github.com/tahehik0/netsys/assets/170648571/e5693585-efb6-4bf5-b320-2b6df4d05668)
+
+
 # GRE ТУННЕЛЬ
 
 TUNLOCAL = IP-АДРЕС УСТРОЙСТВА С КОТОРОГО ИДЕТ IPTUNNEL

@@ -262,6 +262,15 @@ ls -all /var/  (просматриваем файлы и папки в /var/ д�
 
 chmod o+w /var/* (выдаем права на изменение всех файлов в папке /var/)
 
+# Настройка SSH на каждом linux устройстве
 
+mcedit /etc/openssh/sshd_config
 
-Гатова мы получили 20 баллов.
+![image](https://github.com/tahehik0/netsys/assets/170648571/0331fcbc-350d-4914-8295-f289e53598ba)
+
+![image](https://github.com/tahehik0/netsys/assets/170648571/ba9c627c-16c4-42c0-bc48-aa2108ed89f3)
+
+![image](https://github.com/tahehik0/netsys/assets/170648571/a14f629a-bb35-4d04-b823-3d8bf904d4b4)
+
+mcedit /etc/issue.net
+

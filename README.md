@@ -1,6 +1,6 @@
-#Гайд Ливинцева
+# Гайд 
 
-[github.com/](https://github.com/ItsLiventsev/NetSys_Demo_2024/blob/main/README.md)
+https://github.com/ItsLiventsev/NetSys_Demo_2024/blob/main/README.md
 
 # Network Adapters
 

@@ -1,3 +1,17 @@
+# Network Adapters
+
+CLI - ISP_CLI ; VM NETWORK
+
+ISP - ISP_HQ-R ; ISP_BR-R ; ISP_CLI ; VM NETWORK
+
+BR-R - ISP_BR-R ; BRANCH ; VM NETWORK
+
+BR-SRV - BRANCH ; VM NETWORK
+
+HQ-R - ISP_HQ-R ; HQ ; HQ-R_AD ; VM NETWORK
+
+HQ-SRV - HQ ; VM NETWORK
+
 # DNS
 
 Устанавливаем DNS

@@ -16,6 +16,8 @@ HQ-R - ISP_HQ-R ; HQ ; HQ-R_AD ; VM NETWORK
 
 HQ-SRV - HQ ; VM NETWORK
 
+CLI-AD - HQ-R_AD ; VM NETWORK
+
 # DNS
 
 Устанавливаем DNS

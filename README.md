@@ -20,6 +20,8 @@ cp /etc/bind/localhost /etc/bind/zone/master/branch.work
 
 ![image](https://github.com/tahehik0/netsys/assets/170648571/7bf011b8-370f-4988-b8d1-845e7bd38d37)
 
+Создаем файлы для PTR записей
+
 mcedit /etc/bind/zone/hq.work
 
 mcedit /etc/bind/zone/branch.work

@@ -22,6 +22,8 @@ HQ-AD - HQ-R_AD ; VM NETWORK
 
 Устанавливаем DNS
 
+apt-get dist-upgrade
+
 apt-get install bind
 
 apt-get install bind-utils

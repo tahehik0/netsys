@@ -22,9 +22,9 @@ cp /etc/bind/localhost /etc/bind/zone/master/branch.work
 
 Создаем файлы для PTR записей
 
-mcedit /etc/bind/zone/hq.work
+mcedit /etc/bind/zone/0.168.192.in-addr.arpa
 
-mcedit /etc/bind/zone/branch.work
+mcedit /etc/bind/zone/0.16.172.in-addr.arpa
 
 ![image](https://github.com/tahehik0/netsys/assets/170648571/85060784-80a6-4304-b749-bb3b3884b161)
 

@@ -42,6 +42,10 @@ chmod ugo+rwx /etc/bind/zone/0.16.172.in-addr.arpa
 
 chmod ugo+rwx /etc/bind/zone/0.168.192.in-addr.arpa
 
+chmod ugo+rwx /etc/bind/zone/hq.work
+
+chmod ugo+rwx /etc/bind/zone/branch.work
+
 Меняем файл запуска
 
 mcedit /lib/systemd/system/bind.service

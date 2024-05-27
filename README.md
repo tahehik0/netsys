@@ -2,6 +2,8 @@
 
 https://github.com/ItsLiventsev/NetSys_Demo_2024/blob/main/README.md
 
+![image](https://github.com/tahehik0/netsys/assets/170648571/c3788f4e-5962-48d5-a560-99fb8195c6ba)
+
 # Network Adapters
 
 CLI - ISP_CLI ; VM NETWORK

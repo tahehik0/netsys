@@ -179,13 +179,11 @@ lsblk
 
 # 4 МОДУЛЬ
 
-Сам по себе гайд сделан на основе ALT linux но на демке будет Debian, команды могут немного отличаться, но там работает TAB чтобы проверить есть ли разница в командах.
-
 ## 1.1/2.1
 
-Это два идентичных задания, в которых нам нужно просто изменить статику на DHCP а так же ползунки DNS и ROUTE которые будут ниже (для Debian)
+mcedit /etc/net/ifaces/ens192(vm network)/options
 
-Что бы изменить статику на DHCP, нужно зайти в настройки сети и выбрать Automatic(DHCP) вместо Manual
+BOOTPROTO=dhcp
 
 ## 1.2
 
@@ -193,7 +191,7 @@ lsblk
 
 Для этого нам необходимо войти в терминал/терминальную версию (ctrl+alt+f3), далее ввводим логин и пароль (root P@ssw0rd)
 
-Вводим nano /etc/hosts
+Вводим mcedit /etc/hosts
 
 Видим что у нас есть 127.0.0.1 localhost , на него мы и будем перенаправлять
 
@@ -202,7 +200,7 @@ lsblk
 ## 1.3
 
 Не выходя из терминала/терминальной версии создаем скрипт
-nano /home/debian/script
+mcedit /home/debian/script
 
 #!/bin/bash
 
@@ -234,11 +232,11 @@ cd /home/debian  (переход в папку с скриптом)
 
 cd /home/debian
 
-EDITOR=nano crontab -e  (nano - для Debian, mcedit - для ALT)
+EDITOR=mcedit crontab -e  (nano - для Debian, mcedit - для ALT)
 
 Под всеми строками написать
 
-01  18  *  *  *  shutdowrn +0 (Для Debian)          |          01  18  *  *  *  shutdown -h now (Для ALT, но его по идее не будет(на всякий случай))
+01  18  *  *  *  shutdown -h now (enter)
 
 systemctl restart crontab  (Перезагрузка crontab)
 

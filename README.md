@@ -201,7 +201,7 @@ BOOTPROTO=dhcp
 
 Не выходя из терминала/терминальной версии создаем скрипт
 
-mcedit /home/debian/script
+mcedit /home/HQ=AD/script
 
 #!/bin/bash
 
@@ -219,7 +219,7 @@ df
 
 chmod ugo+x ./script  (права на запуск)
 
-cd /home/debian  (переход в папку с скриптом)
+cd /home/HQ-AD  (переход в папку с скриптом)
 
 ./script  (запуск скрипта)
 

@@ -2,6 +2,8 @@
 
 https://github.com/ItsLiventsev/NetSys_Demo_2024/blob/main/README.md
 
+https://github.com/AlexTheMaster001/Modul4_Demo?tab=readme-ov-file#создание-raid-массива-5
+
 ![image](https://github.com/tahehik0/netsys/assets/170648571/c3788f4e-5962-48d5-a560-99fb8195c6ba)
 
 # Network Adapters

@@ -200,6 +200,7 @@ BOOTPROTO=dhcp
 ## 1.3
 
 Не выходя из терминала/терминальной версии создаем скрипт
+
 mcedit /home/debian/script
 
 #!/bin/bash

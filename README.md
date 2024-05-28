@@ -38,9 +38,9 @@ mkdir /etc/bind/zone/master
 
 Копируем файлы
 
-cp /etc/bind/localhost /etc/bind/zone/master/hq.work
+cp /etc/bind/zone/localhost /etc/bind/zone/master/hq.work
 
-cp /etc/bind/localhost /etc/bind/zone/master/branch.work
+cp /etc/bind/zone/localhost /etc/bind/zone/master/branch.work
 
 Заходим в файлы и меняем настройки зон сл. образом:
 
@@ -244,7 +244,10 @@ EDITOR=mcedit crontab -e  (nano - для Debian, mcedit - для ALT)
 systemctl restart crontab  (Перезагрузка crontab)
 
 ## 3.3
-Для решения данной проблемы необходимо в графическом интерфейсе зайти в Настройки > Users > Other Users > Unlock и вводим пароль администратора > Изменяем пароль
+
+adduser user
+
+passwrd P@ssw0rd
 
 ## 3.4
 Подключаем не установочный ISO в Edit Settings

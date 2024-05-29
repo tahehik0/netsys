@@ -250,7 +250,9 @@ systemctl restart crontab  (Перезагрузка crontab)
 
 adduser user
 
-passwrd P@ssw0rd
+passwrd user
+
+P@ssw0rd
 
 ## 3.4
 Подключаем не установочный ISO в Edit Settings

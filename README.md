@@ -6,6 +6,9 @@ https://github.com/AlexTheMaster001/Modul4_Demo?tab=readme-ov-file#создан�
 
 ![image](https://github.com/tahehik0/netsys/assets/170648571/c3788f4e-5962-48d5-a560-99fb8195c6ba)
 
+![image](https://github.com/tahehik0/netsys/assets/170648571/6e1eccfc-9109-46fd-841b-405aba7282a2)
+
+
 # Network Adapters
 
 CLI - ISP_CLI ; VM NETWORK
